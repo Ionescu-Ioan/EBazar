@@ -1,0 +1,17 @@
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar BAL.deps.json
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar BAL.runtimeconfig.json
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar BAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar BAL.pdb
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar DAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar BAL\bin\Debug\net6.0\EBazar DAL.pdb
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.csproj.AssemblyReference.cache
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.AssemblyInfoInputs.cache
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.AssemblyInfo.cs
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.csproj.CoreCompileInputs.cache
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.csproj.CopyComplete
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\refint\EBazar BAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.pdb
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\EBazar BAL.genruntimeconfig.cache
+C:\GitReps\Ebazar\EBazar\EBazar BAL\obj\Debug\net6.0\ref\EBazar BAL.dll
