@@ -47,7 +47,7 @@ namespace EBazar
             services.AddControllersWithViews();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "E_commerce_Web_API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EBazar", Version = "v1" });
             });
             services.AddHttpContextAccessor();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("connString")));
