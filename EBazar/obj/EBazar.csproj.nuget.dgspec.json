@@ -4,12 +4,12 @@
     "C:\\GitReps\\Ebazar\\EBazar\\EBazar\\EBazar.csproj": {}
   },
   "projects": {
-    "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj": {
+    "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj",
-        "projectName": "EBazar BAL",
-        "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj",
+        "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj",
+        "projectName": "EBazarBAL",
+        "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj",
         "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
         "outputPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\obj\\",
         "projectStyle": "PackageReference",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj": {
-                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj"
+              "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj": {
+                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj"
               }
             }
           }
@@ -120,12 +120,12 @@
         }
       }
     },
-    "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj": {
+    "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj",
-        "projectName": "EBazar DAL",
-        "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj",
+        "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
+        "projectName": "EBazarDAL",
+        "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
         "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
         "outputPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\obj\\",
         "projectStyle": "PackageReference",
@@ -252,11 +252,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj": {
-                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj"
+              "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj": {
+                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj"
               },
-              "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj": {
-                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj"
+              "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj": {
+                "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj"
               }
             }
           }

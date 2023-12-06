@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0s80AuamIZ2zpoGYFbyY7aJLhsp9P1a84lPctJ4geEgHrshh97e03PrmwkTLW/1cOLMeRRO+CTP9PXEg3cjNw==",
+  "dgSpecHash": "DdbluDmMAIrdXdh+wJzuUjrQCx4y0OYAoKwoMPHnI2DHmG/5zORChx8xjhJsA1ep7vofJi008tLYv6InXD3USw==",
   "success": true,
-  "projectFilePath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj",
+  "projectFilePath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexr\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

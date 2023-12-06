@@ -3640,11 +3640,11 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "EBazar BAL/1.0.0": {
+      "EBazarBAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "EBazar DAL": "1.0.0",
+          "EBazarDAL": "1.0.0",
           "MailKit": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -3657,13 +3657,13 @@
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "compile": {
-          "bin/placeholder/EBazar BAL.dll": {}
+          "bin/placeholder/EBazarBAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EBazar BAL.dll": {}
+          "bin/placeholder/EBazarBAL.dll": {}
         }
       },
-      "EBazar DAL/1.0.0": {
+      "EBazarDAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -3678,10 +3678,10 @@
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "compile": {
-          "bin/placeholder/EBazar DAL.dll": {}
+          "bin/placeholder/EBazarDAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EBazar DAL.dll": {}
+          "bin/placeholder/EBazarDAL.dll": {}
         }
       }
     }
@@ -10865,21 +10865,21 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "EBazar BAL/1.0.0": {
+    "EBazarBAL/1.0.0": {
       "type": "project",
-      "path": "../EBazar BAL/EBazar BAL.csproj",
-      "msbuildProject": "../EBazar BAL/EBazar BAL.csproj"
+      "path": "../EBazar BAL/EBazarBAL.csproj",
+      "msbuildProject": "../EBazar BAL/EBazarBAL.csproj"
     },
-    "EBazar DAL/1.0.0": {
+    "EBazarDAL/1.0.0": {
       "type": "project",
-      "path": "../EBazar DAL/EBazar DAL.csproj",
-      "msbuildProject": "../EBazar DAL/EBazar DAL.csproj"
+      "path": "../EBazar DAL/EBazarDAL.csproj",
+      "msbuildProject": "../EBazar DAL/EBazarDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "EBazar BAL >= 1.0.0",
-      "EBazar DAL >= 1.0.0",
+      "EBazarBAL >= 1.0.0",
+      "EBazarDAL >= 1.0.0",
       "MailKit >= 4.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
@@ -10924,11 +10924,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj": {
-              "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazar BAL.csproj"
+            "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj": {
+              "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj"
             },
-            "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj": {
-              "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj"
+            "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj": {
+              "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj"
             }
           }
         }

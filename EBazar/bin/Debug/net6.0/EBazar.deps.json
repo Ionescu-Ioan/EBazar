@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "EBazar/1.0.0": {
         "dependencies": {
+          "EBazarBAL": "1.0.0",
+          "EBazarDAL": "1.0.0",
           "MailKit": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -2546,9 +2548,9 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "EBazar BAL/1.0.0": {
+      "EBazarBAL/1.0.0": {
         "dependencies": {
-          "EBazar DAL": "1.0.0",
+          "EBazarDAL": "1.0.0",
           "MailKit": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -2561,10 +2563,10 @@
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "runtime": {
-          "EBazar BAL.dll": {}
+          "EBazarBAL.dll": {}
         }
       },
-      "EBazar DAL/1.0.0": {
+      "EBazarDAL/1.0.0": {
         "dependencies": {
           "MailKit": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
@@ -2577,7 +2579,7 @@
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "runtime": {
-          "EBazar DAL.dll": {}
+          "EBazarDAL.dll": {}
         }
       }
     }
@@ -4079,12 +4081,12 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "EBazar BAL/1.0.0": {
+    "EBazarBAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "EBazar DAL/1.0.0": {
+    "EBazarDAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

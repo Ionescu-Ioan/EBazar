@@ -1,0 +1,14 @@
+C:\GitReps\Ebazar\EBazar\EBazar DAL\bin\Debug\net6.0\EBazarDAL.deps.json
+C:\GitReps\Ebazar\EBazar\EBazar DAL\bin\Debug\net6.0\EBazarDAL.runtimeconfig.json
+C:\GitReps\Ebazar\EBazar\EBazar DAL\bin\Debug\net6.0\EBazarDAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar DAL\bin\Debug\net6.0\EBazarDAL.pdb
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.csproj.AssemblyReference.cache
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.AssemblyInfoInputs.cache
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.AssemblyInfo.cs
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.csproj.CoreCompileInputs.cache
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\refint\EBazarDAL.dll
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.pdb
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\EBazarDAL.genruntimeconfig.cache
+C:\GitReps\Ebazar\EBazar\EBazar DAL\obj\Debug\net6.0\ref\EBazarDAL.dll

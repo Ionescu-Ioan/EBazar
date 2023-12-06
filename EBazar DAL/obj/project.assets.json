@@ -10359,9 +10359,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj",
-      "projectName": "EBazar DAL",
-      "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazar DAL.csproj",
+      "projectUniqueName": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
+      "projectName": "EBazarDAL",
+      "projectPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
       "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
       "outputPath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\obj\\",
       "projectStyle": "PackageReference",
