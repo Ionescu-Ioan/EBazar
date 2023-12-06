@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.7.1221, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[6.0.0, )"

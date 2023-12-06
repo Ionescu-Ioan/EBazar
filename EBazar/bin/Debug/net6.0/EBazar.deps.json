@@ -16,12 +16,14 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.AspNetCore.JsonPatch": "6.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
           "MimeKit": "4.0.0",
+          "OpenCover": "4.7.1221",
           "RazorLight": "2.3.1",
           "Swashbuckle.AspNetCore": "6.2.3",
           "System.Configuration.ConfigurationManager": "6.0.0"
@@ -1090,6 +1092,17 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.0",
@@ -1642,6 +1655,21 @@
           }
         }
       },
+      "NUnit/4.0.1": {
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "NUnit.ConsoleRunner/3.16.3": {},
+      "NUnit3TestAdapter/4.5.0": {},
+      "OpenCover/4.7.1221": {},
       "RazorLight/2.3.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
@@ -2560,6 +2588,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
           "MimeKit": "4.0.0",
+          "NUnit": "4.0.1",
+          "NUnit.ConsoleRunner": "3.16.3",
+          "NUnit3TestAdapter": "4.5.0",
+          "OpenCover": "4.7.1221",
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "runtime": {
@@ -2576,6 +2608,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
           "MimeKit": "4.0.0",
+          "OpenCover": "4.7.1221",
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "runtime": {
@@ -2975,6 +3008,13 @@
       "path": "microsoft.entityframeworkcore.design/6.0.0",
       "hashPath": "microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WJmphvCn0wue9AX+Wvqj3XZ3ehNi9oyYBFNLtHVNvKqZrcimXBOqLo5RNf1fJWYSLWhOia/vzG4JtkAeZxZ8FQ==",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3366,6 +3406,34 @@
       "sha512": "sha512-mCv/GzvMk5iatWoZY41PoIShEbwVxq9CDCc1fV/uqPFKZ4DD/1JuKZ5AL/FJJRsTanvMR3EOXKYCLdQ7PFYn8Q==",
       "path": "nuget.versioning/5.11.0",
       "hashPath": "nuget.versioning.5.11.0.nupkg.sha512"
+    },
+    "NUnit/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNTHZ01hJsDNPDSBycoHpavFZUBf9vRVQLCyuo78LRrrFj6Ol/CeqK+NIeTk5d8Eycjk59KseWb7X5Ge6z7CgQ==",
+      "path": "nunit/4.0.1",
+      "hashPath": "nunit.4.0.1.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhc4f0oVdS70xLaulPu2dMuUWK6hLj5fWLWmUnvbxyEA9w41sZNe6Xb3vPkcp+5OrIqggmtcRbhX+o5hoz62Jg==",
+      "path": "nunit.consolerunner/3.16.3",
+      "hashPath": "nunit.consolerunner.3.16.3.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s8JpqTe9bI2f49Pfr3dFRfoVSuFQyraTj68c3XXjIS/MRGvvkLnrg6RLqnTjdShX+AdFUCCU/4Xex58AdUfs6A==",
+      "path": "nunit3testadapter/4.5.0",
+      "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
+    },
+    "OpenCover/4.7.1221": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "path": "opencover/4.7.1221",
+      "hashPath": "opencover.4.7.1221.nupkg.sha512"
     },
     "RazorLight/2.3.1": {
       "type": "package",

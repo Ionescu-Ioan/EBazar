@@ -1947,6 +1947,12 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "OpenCover/4.7.1221": {
+        "type": "package",
+        "build": {
+          "build/OpenCover.targets": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -6340,6 +6346,75 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "OpenCover/4.7.1221": {
+      "sha512": "XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "type": "package",
+      "path": "opencover/4.7.1221",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "build/OpenCover.MSBuild.dll",
+        "build/OpenCover.targets",
+        "docs/ReleaseNotes.txt",
+        "docs/Usage.rtf",
+        "opencover.4.7.1221.nupkg.sha512",
+        "opencover.nuspec",
+        "readme_with_releasenotes.txt",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/Gendarme.Framework.dll",
+        "tools/Gendarme.Rules.Maintainability.dll",
+        "tools/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/Microsoft.Extensions.Configuration.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/OpenCover.Console.exe",
+        "tools/OpenCover.Console.exe.config",
+        "tools/OpenCover.Console.pdb",
+        "tools/OpenCover.Extensions.dll",
+        "tools/OpenCover.Extensions.pdb",
+        "tools/OpenCover.Framework.dll",
+        "tools/OpenCover.Framework.pdb",
+        "tools/SampleSln/SampleSln.zip",
+        "tools/Samples/x64/OpenCover.Simple.Target.exe",
+        "tools/Samples/x64/OpenCover.Simple.Target.pdb",
+        "tools/Samples/x86/OpenCover.Simple.Target.exe",
+        "tools/Samples/x86/OpenCover.Simple.Target.pdb",
+        "tools/Sentry.PlatformAbstractions.dll",
+        "tools/Sentry.Protocol.dll",
+        "tools/Sentry.dll",
+        "tools/System.Buffers.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.Memory.dll",
+        "tools/System.Numerics.Vectors.dll",
+        "tools/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/System.Text.Encodings.Web.dll",
+        "tools/System.Text.Json.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/autofac.json",
+        "tools/log4net.config",
+        "tools/log4net.dll",
+        "tools/transform/simple_report.xslt",
+        "tools/transform/transform.ps1",
+        "tools/x64/OpenCover.Profiler.dll",
+        "tools/x86/OpenCover.Profiler.dll"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -10350,6 +10425,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.5",
       "MimeKit >= 4.0.0",
+      "OpenCover >= 4.7.1221",
       "System.Configuration.ConfigurationManager >= 6.0.0"
     ]
   },
@@ -10429,6 +10505,10 @@
           "MimeKit": {
             "target": "Package",
             "version": "[4.0.0, )"
+          },
+          "OpenCover": {
+            "target": "Package",
+            "version": "[4.7.1221, )"
           },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
