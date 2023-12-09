@@ -67,6 +67,10 @@ namespace EBazar
             services.AddTransient<IEmailSender, EmailSender>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserManager, UserManager>();
+            services.AddTransient<IObjectTypeRepository, ObjectTypeRepository>();
+            services.AddTransient<IObjectTypeManager, ObjectTypeManager>();
+            services.AddTransient<IProductManager, ProductManager>();
+            services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<InitialSeed>();
             services.Configure<IdentityOptions>(opts => opts.SignIn.RequireConfirmedEmail = true);
             services.AddIdentity<User, Role>()

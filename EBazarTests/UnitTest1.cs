@@ -36,12 +36,11 @@ namespace EBazarTests
             _contextMock = new AppDbContext(dbContextOptions);
             _userRepository = new UserRepository(_contextMock);
 
-            var _userManagerMock = new Mock<UserManager<User>>(Mock.Of<IUserStore<User>>(), null, null, null, null, null, null, null, null);
             _userManager = new UserManager(_userRepository);
         }
 
-        [Test]
-        public async Task GetAndRemoveUserFromDatabase()
+        [Test, Order(1)]
+        public async Task GetUserFromDatabase()
         {
             var user = new RegisterModel()
             {
@@ -53,7 +52,6 @@ namespace EBazarTests
                 Age = 12,
                 Role = "User"
             };
-            var key = "dfjfdids";
             var readUser = await _userManager.getUserByUsername(user.UserName);
             var emailExist = await _userManager.emailExist(user.Email);
             var usernameExist = await _userManager.usernameExist(user.UserName);
@@ -66,15 +64,29 @@ namespace EBazarTests
                 Assert.IsTrue(emailExist, "Email does not exist!");
             }
 
-            var remove =await _userManager.removeUser(user.UserName);
+        }
+
+        [Test, Order(2)]
+        public async Task RemoveUserFromDatabase()
+        {
+            var user = new RegisterModel()
+            {
+                UserName = "rinualex",
+                Email = "rinualexandru3@gmail.com",
+                Password = "Password01!",
+                FirstName = "test",
+                LastName = "test",
+                Age = 12,
+                Role = "User"
+            };
+            var remove = await _userManager.removeUser(user.UserName);
             Assert.IsTrue(remove, "User was not removed!");
             if (remove)
             {
-                readUser = await _userManager.getUserByUsername(user.UserName);
-                Assert.IsNotNull(readUser==null, "UserName exists in application after it was removed!");
-                
-            }
+                var readUser = await _userManager.getUserByUsername(user.UserName);
+                Assert.IsNotNull(readUser == null, "UserName exists in application after it was removed!");
 
+            }
         }
     }
 

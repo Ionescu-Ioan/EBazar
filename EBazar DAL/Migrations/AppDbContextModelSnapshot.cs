@@ -22,6 +22,52 @@ namespace EBazar_DAL.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("EBazar_DAL.Entities.ObjectType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ObjectTypes");
+                });
+
+            modelBuilder.Entity("EBazar_DAL.Entities.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("ObjectTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ObjectTypeId");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("EBazar_DAL.Entities.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -241,6 +287,17 @@ namespace EBazar_DAL.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("EBazar_DAL.Entities.Product", b =>
+                {
+                    b.HasOne("EBazar_DAL.Entities.ObjectType", "ObjectType")
+                        .WithMany("Products")
+                        .HasForeignKey("ObjectTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ObjectType");
+                });
+
             modelBuilder.Entity("EBazar_DAL.Entities.UserRole", b =>
                 {
                     b.HasOne("EBazar_DAL.Entities.Role", "Role")
@@ -294,6 +351,11 @@ namespace EBazar_DAL.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("EBazar_DAL.Entities.ObjectType", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("EBazar_DAL.Entities.Role", b =>

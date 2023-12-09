@@ -30,11 +30,13 @@ namespace EBazar_DAL
         {
 
         }
-
+        public DbSet<ObjectType> ObjectTypes { get; set; }
+        public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
 
             modelBuilder.Entity<UserRole>(ur =>
             {
@@ -43,6 +45,12 @@ namespace EBazar_DAL
                 ur.HasOne(ur => ur.Role).WithMany(r => r.UserRoles).HasForeignKey(ur => ur.RoleId);
                 ur.HasOne(ur => ur.User).WithMany(u => u.UserRoles).HasForeignKey(ur => ur.UserId);
             });
+            modelBuilder.Entity<ObjectType>()
+                .HasMany(c => c.Products)
+                .WithOne(u => u.ObjectType);
+            modelBuilder.Entity<Product>()
+                .HasOne(c => c.ObjectType)
+                .WithMany(u => u.Products);
         }
     }
 }
