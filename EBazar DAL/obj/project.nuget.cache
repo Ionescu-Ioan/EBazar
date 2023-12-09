@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "41Pv5nC48pOdpJCuAEc6mAtpU3RAKjEyDVuoDMKrzd9kGx92n8UaNl6RjZm04uiRC3sxo+6pMtz6aeMzyEA2Zg==",
+  "dgSpecHash": "DHmnu1ZMJk6yaJNHX2ANDLENX5hmP0fYv3e2McegiiCuORPVhgUfCPpulCpQce09dM6Bs348Y1Xau58lfxJzSQ==",
   "success": true,
   "projectFilePath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar DAL\\EBazarDAL.csproj",
   "expectedPackageFiles": [
@@ -125,6 +125,7 @@
     "C:\\Users\\alexr\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\alexr\\.nuget\\packages\\stripe.net\\43.6.0\\stripe.net.43.6.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

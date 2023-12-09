@@ -20,6 +20,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
+using Stripe;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,9 +59,12 @@ namespace EBazar
             services.AddControllersWithViews();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "E_commerce_Web_API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EBazar_API", Version = "v1" });
             });
             services.AddHttpContextAccessor();
+            services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
+            var stripeSettings = Configuration.GetSection("Stripe").Get<StripeSettings>();
+            StripeConfiguration.ApiKey = stripeSettings.SecretKey;
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("connString")));
             services.AddTransient<ITokenHelper, TokenHelper>();
             services.AddTransient<IAuthManager, AuthManager>();

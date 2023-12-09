@@ -14,6 +14,8 @@ namespace EBazar_DAL.Entities
         public string Description { get; set; }
         public double Price { get; set; }
         public ObjectType ObjectType { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
+
 
     }
 }

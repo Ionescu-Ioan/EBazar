@@ -276,3 +276,6 @@ C:\GitReps\Ebazar\EBazar\EBazar\bin\Debug\net6.0\EBazarDAL.dll
 C:\GitReps\Ebazar\EBazar\EBazar\bin\Debug\net6.0\EBazarBAL.pdb
 C:\GitReps\Ebazar\EBazar\EBazar\bin\Debug\net6.0\EBazarDAL.pdb
 C:\GitReps\Ebazar\EBazar\EBazar\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\GitReps\Ebazar\EBazar\EBazar\bin\Debug\net6.0\Stripe.net.dll
+C:\GitReps\Ebazar\EBazar\EBazar\obj\Debug\net6.0\EBazar.RazorAssemblyInfo.cache
+C:\GitReps\Ebazar\EBazar\EBazar\obj\Debug\net6.0\EBazar.RazorAssemblyInfo.cs

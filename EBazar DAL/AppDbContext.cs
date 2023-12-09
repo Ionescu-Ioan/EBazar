@@ -32,6 +32,10 @@ namespace EBazar_DAL
         }
         public DbSet<ObjectType> ObjectTypes { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<OrderHistory> OrdersHistory { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -51,6 +55,14 @@ namespace EBazar_DAL
             modelBuilder.Entity<Product>()
                 .HasOne(c => c.ObjectType)
                 .WithMany(u => u.Products);
+            modelBuilder.Entity<Product>()
+                .HasMany(c => c.CartItems)
+                .WithOne(u => u.Product)
+                .HasForeignKey(a => a.ProductId);
+            modelBuilder.Entity<Cart>()
+                .HasMany(c => c.CartItems)
+                .WithOne(u => u.Cart)
+                .HasForeignKey(a => a.CartId);
         }
     }
 }

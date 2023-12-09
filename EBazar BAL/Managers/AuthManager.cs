@@ -97,6 +97,13 @@ namespace EBazar_BAL.Managers
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(user, registerModel.Role);
+                var cart = new Cart
+                {
+                    UserId = user.Id,
+                    Amount = 0,
+                    CartItems = new List<CartItem>()
+                };
+                _context.Carts.Add(cart);
                 await _context.SaveChangesAsync();
                 return 1;
             }

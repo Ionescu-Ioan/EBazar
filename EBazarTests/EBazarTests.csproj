@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EBazar BAL\EBazarBAL.csproj" />
+    <ProjectReference Include="..\EBazar\EBazar.csproj" />
   </ItemGroup>
 
 </Project>

@@ -64,6 +64,17 @@ namespace EBazar_DAL.Repositories
         public async Task<bool> DeleteProduct(string name)
         {
             var product = await _context.Products.Where(x => x.Name == name).FirstOrDefaultAsync();
+            var carts = await _context.Carts.ToListAsync();
+            foreach (var cart in carts)
+            {
+                var user = await _context.Users.Where(x => x.Id == cart.UserId).FirstOrDefaultAsync();
+                var cartProduct = await _context.CartItems.Where(x => x.ProductId == product.Id && x.CartId == cart.Id).FirstOrDefaultAsync();
+                if (cartProduct != null)
+                {
+                    cart.Amount = cart.Amount - cartProduct.price * cartProduct.quantity;
+                    _context.Carts.Update(cart);
+                }
+            }
             if (product != null)
             {
                 _context.Remove(product);

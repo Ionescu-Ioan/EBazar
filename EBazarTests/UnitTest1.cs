@@ -44,8 +44,8 @@ namespace EBazarTests
         {
             var user = new RegisterModel()
             {
-                UserName = "rinualex",
-                Email = "rinualexandru3@gmail.com",
+                UserName = "rinualex1",
+                Email = "rinualex@gmail.com",
                 Password = "Password01!",
                 FirstName = "test",
                 LastName = "test",
@@ -71,8 +71,8 @@ namespace EBazarTests
         {
             var user = new RegisterModel()
             {
-                UserName = "rinualex",
-                Email = "rinualexandru3@gmail.com",
+                UserName = "rinualex1",
+                Email = "rinualex@gmail.com",
                 Password = "Password01!",
                 FirstName = "test",
                 LastName = "test",
