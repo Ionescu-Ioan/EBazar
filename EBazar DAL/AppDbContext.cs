@@ -26,6 +26,11 @@ namespace EBazar_DAL
 
         }
 
+        public AppDbContext()
+        {
+
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

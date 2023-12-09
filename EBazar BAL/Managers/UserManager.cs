@@ -12,7 +12,7 @@ namespace EBazar_BAL.Managers
     public class UserManager : IUserManager
     {
         private readonly IUserRepository _userRepo;
-        public UserManager(IUserRepository userRepo)
+        public UserManager(IUserRepository userRepo) :base()
         {
             _userRepo = userRepo;
         }

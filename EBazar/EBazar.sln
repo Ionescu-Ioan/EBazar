@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBazarDAL", "..\EBazar DAL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBazarBAL", "..\EBazar BAL\EBazarBAL.csproj", "{2FDB8306-1453-45A8-8AD7-DE227C08D4DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBazarTests", "..\EBazarTests\EBazarTests.csproj", "{104494FB-795D-4BD9-B09D-439A9A3892E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2FDB8306-1453-45A8-8AD7-DE227C08D4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FDB8306-1453-45A8-8AD7-DE227C08D4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FDB8306-1453-45A8-8AD7-DE227C08D4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104494FB-795D-4BD9-B09D-439A9A3892E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104494FB-795D-4BD9-B09D-439A9A3892E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104494FB-795D-4BD9-B09D-439A9A3892E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104494FB-795D-4BD9-B09D-439A9A3892E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

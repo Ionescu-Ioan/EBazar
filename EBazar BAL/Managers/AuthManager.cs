@@ -18,7 +18,14 @@ namespace EBazar_BAL.Managers
         private readonly ITokenHelper _tokenHelper;
         public static Random random = new Random();
         private readonly AppDbContext _context;
-
+        public AuthManager(
+            ITokenHelper tokenHelper,
+            UserManager<User> userManager, AppDbContext context)
+        {
+            _userManager = userManager;
+            _tokenHelper = tokenHelper;
+            _context = context;
+        }
         public AuthManager(SignInManager<User> signInManager,
             ITokenHelper tokenHelper,
             UserManager<User> userManager, AppDbContext context)
@@ -28,6 +35,9 @@ namespace EBazar_BAL.Managers
             _tokenHelper = tokenHelper;
             _context = context;
         }
+        public AuthManager(){ }
+
+
         public async Task<LoginResult> Login(LoginModel loginModel)
         {
             var user = await _userManager.FindByEmailAsync(loginModel.Email);

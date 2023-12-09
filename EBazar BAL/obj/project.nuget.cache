@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3750T8yy4yeJbrCGU/w31sagYAcqm2LTG2oJgZh39kAw2WVQWfv63x0Sxrg4Ft8AOm4Pf11BQ92ECz26FJyd9w==",
+  "dgSpecHash": "WtlbMwYJVtbnpqS62JeK7nfdFU7jLK6G/MkU8NVNBNSAmFcxupbK+4JmBhxiBezy+aFxTe56HcIYQK8yXKF7GA==",
   "success": true,
   "projectFilePath": "C:\\GitReps\\Ebazar\\EBazar\\EBazar BAL\\EBazarBAL.csproj",
   "expectedPackageFiles": [
@@ -108,9 +108,6 @@
     "C:\\Users\\alexr\\.nuget\\packages\\nuget.projectmodel\\5.11.0\\nuget.projectmodel.5.11.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\nuget.protocol\\5.11.0\\nuget.protocol.5.11.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\nuget.versioning\\5.11.0\\nuget.versioning.5.11.0.nupkg.sha512",
-    "C:\\Users\\alexr\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
-    "C:\\Users\\alexr\\.nuget\\packages\\nunit.consolerunner\\3.16.3\\nunit.consolerunner.3.16.3.nupkg.sha512",
-    "C:\\Users\\alexr\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\opencover\\4.7.1221\\opencover.4.7.1221.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\alexr\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
