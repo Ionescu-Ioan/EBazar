@@ -75,6 +75,8 @@ namespace EBazar
             services.AddTransient<IObjectTypeManager, ObjectTypeManager>();
             services.AddTransient<IProductManager, ProductManager>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICommentManager, CommentManager>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
             services.AddTransient<InitialSeed>();
             services.Configure<IdentityOptions>(opts => opts.SignIn.RequireConfirmedEmail = true);
             services.AddIdentity<User, Role>()
@@ -132,7 +134,7 @@ namespace EBazar
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "E_commerce_Web_API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EBazar_API v1"));
             }
 
             app.UseHttpsRedirection();

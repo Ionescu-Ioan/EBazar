@@ -15,7 +15,7 @@ namespace EBazar_DAL.Entities
         public int Age { get; set; }
         public string? RefreshToken { get; set; }
         public string ActivationKey { get; set; }
-
+        public ICollection<Comment> Comments { get; set; }
 
     }
 }

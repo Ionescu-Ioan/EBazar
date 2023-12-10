@@ -36,6 +36,8 @@ namespace EBazar_DAL
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<OrderHistory> OrdersHistory { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -63,6 +65,14 @@ namespace EBazar_DAL
                 .HasMany(c => c.CartItems)
                 .WithOne(u => u.Cart)
                 .HasForeignKey(a => a.CartId);
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.User)
+                .WithMany(u => u.Comments)
+                .HasForeignKey(a => a.UserId);
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.Product)
+                .WithMany(u => u.Comments)
+                .HasForeignKey(a => a.ProductId);
         }
     }
 }
