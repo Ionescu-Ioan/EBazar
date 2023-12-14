@@ -307,6 +307,10 @@
               "target": "Package",
               "version": "[4.2.1, )"
             },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.7.1221, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"

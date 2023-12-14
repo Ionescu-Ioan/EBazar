@@ -1,0 +1,45 @@
+<div class="toolbar" role="banner">
+  <span>Welcome EBazar</span>
+  <div class="spacer"></div>
+</div>
+<mat-accordion multi="true">
+  <mat-expansion-panel>
+      <mat-expansion-panel-header>
+          <mat-panel-title>
+              Adresa de livrare
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+      <form [formGroup]="checkoutForm">
+          <p><mat-form-field appearance="outline">
+                  <mat-label>Nume</mat-label>
+                  <input matInput formControlName="nume">
+              </mat-form-field>
+              <mat-form-field style="float: right;" appearance="outline">
+                  <mat-label>Prenume</mat-label>
+                  <input matInput formControlName="prenume">
+              </mat-form-field>
+          </p>
+          <p><mat-form-field appearance="outline" style="width: 100%;">
+                  <mat-label>Adresa</mat-label>
+                  <input matInput formControlName="adresa">
+              </mat-form-field></p>
+          <p><mat-form-field appearance="outline">
+                  <mat-label>Tara</mat-label>
+                  <input matInput formControlName="tara">
+              </mat-form-field>
+              <mat-form-field style="float: right;" appearance="outline">
+                  <mat-label>Oras</mat-label>
+                  <input matInput formControlName="oras">
+              </mat-form-field>
+          </p>
+          <p><mat-form-field appearance="outline" style="width: 100%;">
+                  <mat-label>Numar de telefon</mat-label>
+                  <input matInput formControlName="telefon">
+              </mat-form-field></p>
+      </form>
+  </mat-expansion-panel>
+</mat-accordion>
+<div class="button-container">
+  <button mat-button class="button" (click)="checkout()">Checkout</button>
+</div>
+<router-outlet></router-outlet>

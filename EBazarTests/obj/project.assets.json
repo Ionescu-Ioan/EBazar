@@ -2317,7 +2317,7 @@
       "OpenCover/4.7.1221": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/OpenCover.targets": {}
         }
       },
       "RazorLight/2.3.1": {
@@ -11008,6 +11008,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "OpenCover >= 4.7.1221",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -11076,6 +11077,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.2.1, )"
+          },
+          "OpenCover": {
+            "target": "Package",
+            "version": "[4.7.1221, )"
           },
           "coverlet.collector": {
             "target": "Package",
